@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-21T11:35:26 EET" name="Default suite" finished-at="2022-05-21T11:35:29 EET" duration-ms="3517">
+    <groups>
+    </groups>
+    <test started-at="2022-05-21T11:35:26 EET" name="Default test" finished-at="2022-05-21T11:35:29 EET" duration-ms="3517">
+      <class name="com.dell.automation.APICategoryTest">
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:26 EET" name="baseURI" finished-at="2022-05-21T11:35:26 EET" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="defaultLimitSkip()[pri:1, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:26 EET" name="defaultLimitSkip" description=" Check that default limit is 10" finished-at="2022-05-21T11:35:28 EET" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultLimitSkip -->
+        <test-method signature="maximLimit()[pri:2, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="maximLimit" description="validate that maximum limit is 25" finished-at="2022-05-21T11:35:28 EET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximLimit -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="baseURI" finished-at="2022-05-21T11:35:28 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="baseURI" finished-at="2022-05-21T11:35:28 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="minimumLimit()[pri:3, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="minimumLimit" description="validate that limited number of categories = 1" finished-at="2022-05-21T11:35:28 EET" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimumLimit -->
+        <test-method signature="negativeLimit()[pri:4, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="negativeLimit" description="verify that limit for numbers of categories cannot be negative numbers" finished-at="2022-05-21T11:35:29 EET" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLimit -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:28 EET" name="baseURI" finished-at="2022-05-21T11:35:28 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="overLimit()[pri:5, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="overLimit" description="verify that limit for  numbers of categories cannot exceed 25" finished-at="2022-05-21T11:35:29 EET" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overLimit -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="createCategoryWithoutName(java.lang.String,java.lang.String)[pri:6, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="createCategoryWithoutName" description=" Adding categories by sending ID only" data-provider="categories" finished-at="2022-05-21T11:35:29 EET" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Category]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCategoryWithoutName -->
+        <test-method signature="createCategory(java.lang.String,java.lang.String)[pri:7, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="createCategory" description="Add a new  category" data-provider="categories" finished-at="2022-05-21T11:35:29 EET" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Category]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCategory -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="getCategoryById()[pri:8, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="getCategoryById" description="Get the new added category details " finished-at="2022-05-21T11:35:29 EET" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCategoryById -->
+        <test-method signature="updateRequestById(java.lang.String)[pri:9, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="updateRequestById" description="Update the category name" data-provider="setname" finished-at="2022-05-21T11:35:29 EET" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Category]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRequestById -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="deleteCategoryById()[pri:10, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="deleteCategoryById" description="Delete the add category " finished-at="2022-05-21T11:35:29 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCategoryById -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+        <test-method signature="getCategoryWithInvalidID()[pri:11, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="getCategoryWithInvalidID" description="Get the Deleted category by ID " finished-at="2022-05-21T11:35:29 EET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCategoryWithInvalidID -->
+        <test-method signature="deleteCategoryByInvalidId()[pri:12, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="deleteCategoryByInvalidId" description="Delete the add category " finished-at="2022-05-21T11:35:29 EET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCategoryByInvalidId -->
+        <test-method is-config="true" signature="baseURI()[pri:0, instance:com.dell.automation.APICategoryTest@10163d6]" started-at="2022-05-21T11:35:29 EET" name="baseURI" finished-at="2022-05-21T11:35:29 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURI -->
+      </class> <!-- com.dell.automation.APICategoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
